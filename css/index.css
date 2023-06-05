@@ -15,7 +15,9 @@
     margin-top: 25%;
 }
 
-.sing-in {
+.login a {
+    text-decoration: none;
+    display: block;
     background-color: var(--color1);
     border-radius: 1.8rem;
     color: var(--color2);
@@ -24,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .create-account {
