@@ -1,12 +1,13 @@
 .trancition {
     max-width: 48rem;
-    height: 32rem;
+    height: 30rem;
     position: relative;
     padding: 2rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F9F9F9;
 }
 
 .flecha_regresar {
@@ -41,4 +42,65 @@
 
 .moneda {
     font-size: 2.9rem;
+}
+
+/* SECCIÓN DE OPCIONES */
+
+.opciones {
+    background-color: #fff;
+    width: 100%;
+    padding: 7%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opciones h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.item {
+    width: 100%;
+    height: 8rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.bo_borde {
+    border: none;
+}
+
+.item div {
+    width: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-img {
+    width: 6.4rem;
+    height: 5.7rem;
+    background-color: #e6e6e6e6;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-img2 {
+    background-color: black;
+}
+
+.leyenda {
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
 }
