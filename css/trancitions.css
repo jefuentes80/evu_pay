@@ -61,12 +61,18 @@
     text-align: left;
     font-size: 2rem;
     margin-top: 3rem;
+    margin-bottom: 1.1rem;
+    font-family: 'Roboto';
 }
 
 .item {
     width: 100%;
-    height: 8rem;
+    height: auto;
     border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 2rem 0rem;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .bo_borde {
@@ -103,4 +109,40 @@
 .leyenda {
     font-size: 1.2rem;
     margin-top: 0.4rem;
+}
+
+/* TODOS LOS ITEMS */
+.icono {
+    background-color: #E6E6E6;
+    width: 5.3rem;
+    height: 6rem;
+
+    display: flex;
+
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.icono img {
+    width: 5rem;
+}
+
+.texto {
+    margin-right: auto;
+    margin-left: 1.7rem;
+}
+
+.texto_1 {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.texto_2 {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.precio {
+    font-size: 1.2rem;
 }
